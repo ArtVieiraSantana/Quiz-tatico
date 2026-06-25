@@ -1,0 +1,35 @@
+# Dependências
+node_modules/
+.pnpm-store/
+
+# Build
+dist/
+.vite/
+
+# Banco de dados (NUNCA versionar)
+data/
+*.db
+*.db-shm
+*.db-wal
+
+# Variáveis de ambiente (NUNCA versionar)
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/settings.json
+.idea/
+*.swp
+
+# Temporários
+tmp/
+.tmp/
